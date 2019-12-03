@@ -34,7 +34,7 @@
     "moment": "^2.23.0",
     "nyc": "^13.1.0",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.5",
+    "request-promise-native": "^1.0.8",
     "swagger-jsdoc": "^3.2.7"
   }
 }
