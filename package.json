@@ -20,7 +20,7 @@
     "googleapis": "^36.0.0",
     "ioredis": "^4.3.0",
     "morgan": "^1.9.1",
-    "winston": "^3.1.0",
+    "winston": "^3.2.1",
     "oms-common-nodejs": "git+https://git@github.com/AEGEE/oms-common-nodejs.git"
   },
   "devDependencies": {
