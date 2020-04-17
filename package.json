@@ -17,7 +17,7 @@
     "config": "^3.0.1",
     "express": "^4.16.4",
     "express-promise-router": "^3.0.3",
-    "googleapis": "^36.0.0",
+    "googleapis": "^49.0.0",
     "ioredis": "^4.3.0",
     "morgan": "^1.9.1",
     "winston": "^3.1.0",
