@@ -33,7 +33,7 @@
     "eslint-config-strongloop": "^2.1.0",
     "eslint-plugin-mocha": "^7.0.1",
     "istanbul": "^0.4.5",
-    "mocha": "^5.2.0",
+    "mocha": "^8.2.0",
     "mocha-istanbul": "^0.3.0",
     "moment": "^2.29.1",
     "nyc": "^13.1.0",
