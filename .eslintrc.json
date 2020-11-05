@@ -17,6 +17,7 @@
 
     "rules": {
       "max-len": "off",
-      "mocha/no-exclusive-tests": "error"
+      "mocha/no-exclusive-tests": "error",
+      "strict": [2, "never"]
     }
 }
