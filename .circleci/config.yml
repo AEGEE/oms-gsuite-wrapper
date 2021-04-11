@@ -19,8 +19,8 @@ jobs:
             nvm install v14.16.0
             nvm alias default v14.16.0
       - node/install-packages
-      - run: cat $SERVICEACCOUNT_JSON > ~/lib/config/myaegee-serviceaccount.json
-      - run: cat $SECRETS_JSON > ~/lib/config/secrets.json
+      - run: echo $SERVICEACCOUNT_JSON > lib/config/myaegee-serviceaccount.json
+      - run: echo $SECRETS_JSON > lib/config/secrets.json
       - run: mkdir -p ~/reports/mocha
       - run:
           name: Run tests
