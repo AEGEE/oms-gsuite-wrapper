@@ -25,11 +25,11 @@ jobs:
       - run:
           name: Run tests
           command: npm test
-    #  - run: ./node_modules/.bin/codecov
-    #  - store_test_results:
-    #      path: ~/reports
-    #  - store_artifacts:
-    #      path: ~/reports
+      # - run: ./node_modules/.bin/codecov
+      # - store_test_results:
+      #     path: ~/reports
+      # - store_artifacts:
+      #     path: ~/reports
   build:
     docker:
       - image: cimg/base:2021.03
@@ -82,7 +82,7 @@ jobs:
           version: 20.10.2
       - node/install-packages
       - run: npx semantic-release
-      - run: docker build  --tag aegee/gsuite-wrapper:$(node -p "require('./package.json').version") --tag aegee/gsuite-wrapper:latest -f docker/gsuite-wrapper/Dockerfile .
+      - run: docker build  --tag aegee/gsuite-wrapper:$(node -p "require('./package.json').version") --tag aegee/gsuite-wrapper:latest -f docker/Dockerfile .
       - run: docker login --username $DOCKER_LOGIN --password $DOCKER_PASSWORD
       - run: docker push aegee/gsuite-wrapper:$(node -p "require('./package.json').version")
       - run: docker push aegee/gsuite-wrapper:latest
