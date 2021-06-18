@@ -105,9 +105,9 @@ workflows:
           filters:
             branches:
               ignore: master
-  test:
-    jobs:
-      - test
+  # test:
+  #   jobs:
+  #     - test
   docker-build-and-push:
     jobs:
       - docker-build-and-push:
